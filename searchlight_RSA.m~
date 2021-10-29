@@ -1,0 +1,26 @@
+function searchlight_RSA(simulation, perception, control, cube_size);
+
+new_matrix = zeros(size(simulation));
+contrast_dimensions = size(simulation);
+
+for l = 0:contrast_dimensions(1)
+    for w = 0:contrast_dimensions(2)
+        for h = 0:contrast_dimensions(3)
+    simulation_cube = simulation(i:cube_size, i:cube_size, i:cube_size);
+    perception_cube = perception(i:cube_size, i:cube_size, i:cube_size);
+    control_cube = control(i:cube_size, i:cube_size, i:cube_size);
+    
+    simulation_list = simulation_cube(:);
+    perception_list = perception_cube(:);
+    control_list = control_cube(:);
+    
+    s_p_correlation = corrcoef(simulation_list, perception_list);
+    s_p_correlation = s_p_correlation(1, 2);
+    
+    s_c_correlation = corrcoef(simulation_list, control_list);
+    s_c_correlation = s_c_correlation(1, 2);
+    
+    difference = s_p_correlation - s_c_correlation;
+    first_cube_center_index = cube_size/2;
+    new_matrix
+end

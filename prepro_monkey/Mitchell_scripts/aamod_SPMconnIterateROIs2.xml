@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aap>
+  <tasksettings>
+   <aamod_SPMconnIterateROIs2 domain='study' desc='iterative connectivity analysis' modality='MRI'>
+   <analname></analname>
+   <bpfilt ui='double'>[0.0025, 0.05]</bpfilt>
+   <TRs ui='double'>2</TRs>
+   <windows desc='Repeat for N windows(Inf gives 7 sliding windows)' ui='int'>1</windows>
+   <mode>SeedToSeed</mode>
+   <roifilt></roifilt>
+   <roipath></roipath>
+   <analysismask></analysismask>
+   <tissuepath>UniqueIndividual</tissuepath>
+   <GMfilt>^_Pre_t90rwc1mmi\d.*.nii$</GMfilt>
+   <WMfilt>^_Pre_et99rwc2mmi\d.*.nii$</WMfilt>
+   <CSFfilt>^_Pre_ot99rwc3mmi\d.*.nii$</CSFfilt>
+   <extraconfoundroifilt></extraconfoundroifilt>
+   <extraconfoundroipath></extraconfoundroipath>
+   <componentspertissue>6.99</componentspertissue>
+   <RemoveMeanGM>0</RemoveMeanGM>
+   <tissueconfoundhistory>5</tissueconfoundhistory>
+   <motionconfoundhistory>5</motionconfoundhistory>
+   <globmove>1</globmove>
+   <confoundsvdthresh>0.99</confoundsvdthresh>
+   <priors></priors>
+   <confoundepiprefix></confoundepiprefix>
+   <doneflagsuffix></doneflagsuffix>
+   <specialrequirements desc='Special requirements?'><highmemory/><unlimit/></specialrequirements>
+   </aamod_SPMconnIterateROIs2>
+  </tasksettings>
+</aap>
+   

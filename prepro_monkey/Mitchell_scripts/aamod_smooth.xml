@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aap>
+    <tasksettings>
+        <aamod_smooth domain='session' desc='SPM smooth' modality='MRI'>
+            <FWHM>10</FWHM>
+	    <masks></masks>
+            <inputstreams>
+                <stream>
+                    <name>epi</name>
+                </stream>
+            </inputstreams>
+            <outputstreams>
+                <stream>
+                    <name>epi</name>
+                    <filter domain='session'>s*nii</filter>
+                </stream>
+            </outputstreams>           
+        </aamod_smooth>
+    </tasksettings>
+</aap>
+

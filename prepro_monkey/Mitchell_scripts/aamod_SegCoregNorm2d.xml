@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aap>
+  <tasksettings>
+   <aamod_SegCoregNorm2d domain='subject' desc='Crudely BET structural; coreg epi to SS structural; coreg all to template; normalise' modality='MRI'>
+   <combinewithtags ui='yesno'>0</combinewithtags>
+   <specialrequirements desc='Special requirements?'><highmemory/></specialrequirements>
+   </aamod_SegCoregNorm2d>
+  </tasksettings>
+</aap>
+   

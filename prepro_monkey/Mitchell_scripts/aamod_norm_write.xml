@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aap>
+    <tasksettings>
+        <aamod_norm_write domain='session' desc='SPM normalisation write' modality='MRI'>
+            <inputstreams>
+                <stream>
+                    <name>normalisation_seg_sn</name>
+                </stream>  
+                <stream>
+                    <name>epi</name>
+                </stream>
+            </inputstreams>
+            <outputstreams>
+                <stream>
+                    <name>epi</name>
+                    <filter domain='session'>w*nii</filter>
+                </stream>
+            </outputstreams>            
+        </aamod_norm_write>
+    </tasksettings>
+</aap>
+

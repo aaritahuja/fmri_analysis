@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aap>
+    <tasksettings>
+        <aamod_initialprocessingEPI domain='subject' desc='reformat raw FSL EPI files' modality='MRI'>
+            <qsub>
+                <memoryBase desc='GB'> 48 </memoryBase>
+                <timeBase desc='hours'> 2 </timeBase>
+            </qsub>
+        </aamod_initialprocessingEPI>
+    </tasksettings>
+</aap>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aap>
+    <tasksettings>
+        <aamod_initialprocessingStruc domain='subject' desc='reformat raw FSL files' modality='MRI'>
+            <qsub>
+                <memoryBase desc='GB'> 48 </memoryBase>
+                <timeBase desc='hours'> 2 </timeBase>
+            </qsub>
+        </aamod_initialprocessingStruc>
+    </tasksettings>
+</aap>
+

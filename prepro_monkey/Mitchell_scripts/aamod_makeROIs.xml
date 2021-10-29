@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aap>
+  <tasksettings>
+   <aamod_makeROIs domain='subject' desc='Make ROIs' modality='MRI'>
+   <templaterois></templaterois>
+   <warptonative>0</warptonative>
+   <specialrequirements desc='Special requirements?'><highmemory/><unlimit/></specialrequirements>
+   </aamod_makeROIs>
+  </tasksettings>
+</aap>
+   

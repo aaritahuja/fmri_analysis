@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aap>
+  <tasksettings>
+   <aamod_tsdiffana domain='session' desc='run tsdiffana' modality='MRI'>
+   </aamod_tsdiffana>
+  </tasksettings>
+</aap>
+   
